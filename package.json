@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-is-hex-color",
+  "version": "1.0.0",
+  "description": "Validates CSS-style hexadecimal color strings.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.is-hex-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.is-hex-color/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.is-hex-color#readme",
+  "keywords": [
+    "hex",
+    "color",
+    "css",
+    "validation"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}

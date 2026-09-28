@@ -1,0 +1,1 @@
+export function isHexColor(v,o={}){if(typeof v!=="string")return false;const hash=o.requireHash===false?"#?":"#";const body=o.allowAlpha===false?"(?:[\\da-f]{3}|[\\da-f]{6})":"(?:[\\da-f]{3}|[\\da-f]{4}|[\\da-f]{6}|[\\da-f]{8})";return new RegExp(`^${hash}${body}$`,"iu").test(v);}
